@@ -25,11 +25,7 @@ background-color: lavender;
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {
-    .col-12 {
-        padding-bottom: 2px;
-    }
-}
+@media (min-width: 576px) {}
 
 /* END "sm-" 576px and up */
 
