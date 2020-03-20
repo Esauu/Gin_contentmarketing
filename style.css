@@ -6,33 +6,46 @@
 
 
 .corner {
-    bottom: 40px;
-    right: 35px;
-    top: 480px;
+    top: 470px;
     left: 130px;
 }
 
-main {
-    background-color: yellow;
+.corner1 {
+    top: 10px;
+    left: 80px;
 }
+
+.corner2 {
+    top: 160px;
+    right: 120px;
+    z-index: 1;
+}
+
+
+
+
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {
-
-    main {
-        background-color: yellow;
-    }
-}
+@media (min-width: 576px) {}
 
 /* END "sm-" 576px and up */
+
+
 
 
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+    .corner {
+        top: 170px;
+        left: 120px;
+    }
+}
 
 /* END "md-" 768px and up */
 
