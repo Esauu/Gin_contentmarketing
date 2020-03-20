@@ -4,35 +4,27 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
-/*
-#hero {
-background-color: azure;
+
+.corner {
+    bottom: 40px;
+    right: 35px;
+    top: 480px;
+    left: 130px;
 }
 
-#voresis {
-background-color: lightyellow;
+main {
+    background-color: yellow;
 }
-
-#tilbud {
-background-color: burlywood;
-}
-
-#omos {
-background-color: lavender;
-}
-*/
-
-.herobox {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-}
-
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+    main {
+        background-color: yellow;
+    }
+}
 
 /* END "sm-" 576px and up */
 
