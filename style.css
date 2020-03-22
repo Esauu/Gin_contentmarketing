@@ -4,6 +4,10 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
+a {
+    color: inherit;
+    text-decoration: underline;
+}
 
 .corner {
     top: 470px;
@@ -21,10 +25,12 @@
     z-index: 1;
 }
 
+/*
 .container {
     padding: 0;
-    /*giver en vandret scroll bar..*/
+    giver en vandret scroll bar..
 }
+*/
 
 .center-block {
     display: block;
@@ -33,6 +39,33 @@
 }
 
 
+#topnav {
+    background-color: wheat
+}
+
+#hero {
+    background-color: blue;
+}
+
+#about {
+    background-color: crimson;
+}
+
+#video {
+    background-color: darkgreen;
+}
+
+#konkurrence {
+    background-color: gold;
+}
+
+#splash {
+    background-color: orangered;
+}
+
+#graf {
+    background-color: blueviolet
+}
 
 
 
@@ -53,9 +86,28 @@
 @media (min-width: 768px) {
 
     .corner {
-        top: 170px;
-        left: 120px;
+        top: 410px;
+        left: 220px;
     }
+
+    .corner1 {
+        top: 30px;
+        left: 360px;
+    }
+
+    .corner2 {
+        top: 165px;
+        right: 110px;
+        z-index: 1;
+    }
+
+    .dn {
+        display: none;
+    }
+
+
+
+
 }
 
 /* END "md-" 768px and up */
@@ -65,6 +117,18 @@
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+
+
+    .corner1 {
+        top: 30px;
+        left: 560px;
+    }
+
+    .corner2 {
+        top: 165px;
+        right: 70px;
+        z-index: 1;
+    }
 
     /* END "lg-" 992px and up */
 }
