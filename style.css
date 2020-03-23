@@ -4,6 +4,12 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
+body {
+    margin-top: 3em;
+    background: #fadede;
+    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
 a {
     color: inherit;
     text-decoration: underline;
@@ -38,10 +44,6 @@ a {
     margin-right: auto;
 }
 
-
-#topnav {
-    background-color: wheat
-}
 
 #hero {
     background-color: blue;

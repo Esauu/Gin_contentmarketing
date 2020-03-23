@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="burger.css">
 
 </head>
 
@@ -18,30 +19,35 @@
 
 
 
+
+
+
+
         <!--       hvorfor virker det her ikke????? -->
         <nav>
-            <div id="topnav" class="container">
-                <div class="row ">
-                    <div class="col-12 text-center">
-                        <img class="img-fluid col-5" src="img/logo.png">
-                    </div>
-                    <ul class="col-12 text-center">
 
-                        <li><a href="Danish">
-                                <div>Danish</div>
-                            </a></li>
-                        <li><a href="English">
-                                <div>English</div>
-                            </a></li>
-
-                    </ul>
+            <div class="container">
+                <div class="col-12 text-center">
+                    <img class="img-fluid col-4 col-md-2 col-lg-2" src="img/logo.png">
                 </div>
+            </div>
+
+            <a href="#menu" id="toggle"><span></span></a>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
 
 
     </header>
 
+
+    <br>
 
     <!-- Tilføj dit indhold under denne linie -->
 
@@ -161,11 +167,11 @@
 
     <!-- jQuery og popper.js inkluderinger herunder - nødvendigt for Bootstrap  - slet dem ikke-->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
-</body>
-
-</html>
+</body></html>
