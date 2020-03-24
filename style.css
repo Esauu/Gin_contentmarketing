@@ -21,14 +21,43 @@ a:hover {
 
 }
 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1px 72px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #54c159;
+
+}
+
+/*
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+*/
+
+
+
 .text {
-    top: 170px;
+    top: 90px;
     left 0px;
+    font-size: 50px;
     max-width: 400px;
 }
 
 .corner {
-    top: 470px;
+    top: 380px;
     left: 130px;
 }
 
@@ -60,35 +89,39 @@ a:hover {
 #hero {
     background-color: blue;
     font-family: 'Anton', sans-serif;
+    min-height: 90vh;
 }
 
 #hero h3 {
-    color: white;
+    color: #121212;
 }
 
 #about {
     background-color: crimson;
     padding: 0;
     margin: 0;
+    min-height: 90vh;
 }
 
 #video {
     background-color: darkgreen;
+    min-height: 110vh;
 }
 
 #konkurrence {
     background-color: gold;
-}
-
-#splash {
-    background-color: orangered;
+    min-height: 90vh;
 }
 
 #graf {
-    background-color: blueviolet
+    background-color: blueviolet;
+    min-height: 90vh;
 }
 
-
+#splash {
+    min-height: 90vh;
+    min-width: 100vw;
+}
 
 
 /**************************************************/
@@ -107,7 +140,7 @@ a:hover {
 @media (min-width: 768px) {
 
     .corner {
-        top: 410px;
+        top: 430px;
         left: 220px;
     }
 
