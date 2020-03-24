@@ -22,20 +22,24 @@ a:hover {
 }
 
 .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 1px 72px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
+    background-color: #4d2ff4;
+    border: none;
+    color: white;
+    padding: 1px 72px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .button:hover {
-    background-color: #54c159;
+    background-color: #5b42e6;
 
+}
+
+#eboks {
+    width: 250px;
 }
 
 /*
