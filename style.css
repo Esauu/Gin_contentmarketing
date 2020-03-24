@@ -7,12 +7,24 @@
 body {
     margin-top: 3em;
     background: #fadede;
-    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
-    color: inherit;
+    color: #745b35;
     text-decoration: underline;
+    font-size: 20px
+}
+
+a:hover {
+    color: #745b35;
+
+}
+
+.text {
+    top: 170px;
+    left 0px;
+    max-width: 400px;
 }
 
 .corner {
@@ -47,11 +59,17 @@ a {
 
 #hero {
     background-color: blue;
+    font-family: 'Anton', sans-serif;
+}
+
+#hero h3 {
+    color: white;
 }
 
 #about {
     background-color: crimson;
     padding: 0;
+    margin: 0;
 }
 
 #video {
