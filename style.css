@@ -4,6 +4,10 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
+img {
+    100%
+}
+
 body {
     margin-top: 3em;
     background: #ffffff;
@@ -60,7 +64,7 @@ a:hover {
 .text {
     top: 90px;
     left 0px;
-    font-size: 50px;
+    font-size: 60px;
     max-width: 400px;
 }
 
@@ -106,7 +110,7 @@ a:hover {
     background-color: crimson;
     padding: 0;
     margin: 0;
-    min-height: 90vh;
+    min-height: 70vh;
 }
 
 
@@ -157,6 +161,10 @@ footer p {
 
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
@@ -180,13 +188,18 @@ footer p {
 
     .corner1 {
         top: 30px;
-        left: 360px;
+        left: 410px;
     }
 
     .corner2 {
-        top: 165px;
-        right: 110px;
+        top: 565px;
+        left: 220px;
         z-index: 1;
+    }
+
+    .ktext {
+        top: 300px;
+        left: 20px;
     }
 
     .dn {
@@ -207,8 +220,6 @@ footer p {
         display: none;
     }
 
-
-
 }
 
 /* END "md-" 768px and up */
@@ -223,18 +234,26 @@ footer p {
         margin: auto;
     }
 
+    .corner {
+        top: 400px;
+        left: 300px;
+    }
+
 
     .corner1 {
-        top: 30px;
-        left: 560px;
+        top: 0px;
+        left: 620px;
     }
 
     .corner2 {
-        top: 165px;
-        right: 70px;
+        top: 515px;
+        left: 370px;
         z-index: 1;
     }
 
+    .footertext {
+        font-size: 12px;
+    }
 
 
     /* END "lg-" 992px and up */
@@ -244,6 +263,24 @@ footer p {
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
+
+
+    .corner {
+        top: 450px;
+        left: 400px;
+    }
+
+
+    .corner1 {
+        top: 0px;
+        left: 720px;
+    }
+
+    .corner2 {
+        top: 625px;
+        left: 425px;
+        z-index: 1;
+    }
 
     #videod {
         width: 100%;
