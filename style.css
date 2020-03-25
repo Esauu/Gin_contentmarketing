@@ -97,7 +97,7 @@ a:hover {
 /*Kan ikke huske hvad den her gør*/
 
 #hero {
-    background-color: blue;
+    /*    background-color: blue;*/
     font-family: 'Anton', sans-serif;
     min-height: 90vh;
 }
@@ -107,7 +107,7 @@ a:hover {
 }
 
 #about {
-    background-color: crimson;
+    /*    background-color: crimson;*/
     padding: 0;
     margin: 0;
     min-height: 70vh;
@@ -116,7 +116,7 @@ a:hover {
 
 
 #konkurrence {
-    background-color: gold;
+    /*    background-color: gold;*/
     min-height: 90vh;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 
 
 #graf {
-    background-color: blueviolet;
+    /*    background-color: blueviolet;*/
     min-height: 90vh;
 }
 
@@ -151,7 +151,7 @@ footer p {
 }
 
 #video {
-    background-color: darkgreen;
+    /*    background-color: darkgreen;*/
     min-height: 90vh;
     position: relative;
     z-index: -1;
@@ -207,7 +207,6 @@ footer p {
     }
 
     #videod {
-        background-color: darkgreen;
         min-height: 110vh;
         position: relative;
         z-index: -1;
