@@ -74,17 +74,17 @@ a:hover {
 
 .corner {
     top: 380px;
-    left: 130px;
+    left: 145px;
 }
 
 .corner1 {
-    top: 10px;
-    left: 80px;
+    top: 30px;
+    left: 230px;
 }
 
 .corner2 {
-    top: 160px;
-    right: 120px;
+    top: 420px;
+    left: 20px;
     z-index: 1;
 }
 
@@ -199,6 +199,10 @@ footer p {
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+
+    body {
+        margin: auto;
+    }
 
 
     .corner1 {
