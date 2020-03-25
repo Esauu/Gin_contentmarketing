@@ -90,6 +90,7 @@ a:hover {
     margin-right: auto;
 }
 
+/*Kan ikke huske hvad den her gør*/
 
 #hero {
     background-color: blue;
@@ -150,8 +151,9 @@ footer p {
     min-height: 90vh;
     position: relative;
     z-index: -1;
-    width: 100%;
+    width: 75%;
     height: auto;
+    margin: auto;
 
 }
 
