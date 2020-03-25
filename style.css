@@ -47,6 +47,7 @@ a:hover {
 }
 
 
+
 /*
 .no-gutters {
     margin-right: 0;
@@ -115,6 +116,10 @@ a:hover {
 #video {
     background-color: darkgreen;
     min-height: 110vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: auto;
 }
 
 #konkurrence {
@@ -128,9 +133,20 @@ a:hover {
 }
 
 #splash {
-    min-height: 90vh;
-    min-width: 100vw;
+    min-height: 60vh;
+    min-width: 60vw;
+    background: url(img/splash.jpg) no-repeat center center fixed;
 }
+
+footer {
+    min-height: 30vh;
+
+}
+
+footer p {
+    font-size: 0.em;
+}
+
 
 
 /**************************************************/
@@ -200,6 +216,11 @@ a:hover {
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
+
+    #video {
+        width: 100%;
+        height: auto;
+    }
 
     /* END "xl-" 1200px and up */
 }
