@@ -61,7 +61,7 @@
     /*    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;*/
     text-align: center;
     border-radius: 4px;
-    background: white;
+    background: #66e2f8;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
     /* just for this demo */
     opacity: 0;
@@ -71,13 +71,14 @@
 
 #menu:after {
     position: absolute;
+
     top: -15px;
     left: 85px;
     content: "";
     display: block;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 20px solid white;
+    border-bottom: 20px solid #66e2f8;
 }
 
 ul,
