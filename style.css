@@ -116,14 +116,7 @@ a:hover {
     min-height: 90vh;
 }
 
-#video {
-    background-color: darkgreen;
-    min-height: 110vh;
-    position: relative;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-}
+
 
 #konkurrence {
     background-color: gold;
@@ -150,6 +143,19 @@ footer p {
     font-size: 0.em;
 }
 
+#videod {
+    display: none;
+}
+
+#video {
+    background-color: darkgreen;
+    min-height: 90vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+
+}
 
 
 /**************************************************/
@@ -187,6 +193,19 @@ footer p {
         display: none;
     }
 
+    #videod {
+        background-color: darkgreen;
+        min-height: 110vh;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #video {
+        display: none;
+    }
 
 
 
@@ -216,6 +235,8 @@ footer p {
         z-index: 1;
     }
 
+
+
     /* END "lg-" 992px and up */
 }
 
@@ -224,7 +245,7 @@ footer p {
 /**************************************************/
 @media (min-width: 1200px) {
 
-    #video {
+    #videod {
         width: 100%;
         height: auto;
     }
