@@ -25,7 +25,7 @@ a:hover {
     background-color: #4d2ff4;
     border: none;
     color: white;
-    padding: 1px 72px;
+    padding: 1px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -53,17 +53,9 @@ a:hover {
 
 }
 
-
-/*
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
+.pad {
+    padding-left: 14px;
 }
-*/
-
-
 
 .text {
     top: 90px;
@@ -122,6 +114,12 @@ a:hover {
     background-color: gold;
     min-height: 90vh;
 }
+
+#konkurrence p {
+    font-size: 10px;
+}
+
+
 
 #graf {
     background-color: blueviolet;
