@@ -63,8 +63,8 @@ a:hover {
 }
 
 .text {
-    top: 90px;
-    left 0px;
+    top: 180px;
+    left: 10vw;
     font-size: 60px;
     max-width: 400px;
 }
@@ -83,6 +83,11 @@ a:hover {
     top: 420px;
     left: 20px;
     z-index: 1;
+}
+
+.ktext {
+    top: 700px;
+    left: 20px;
 }
 
 .container {
@@ -132,10 +137,16 @@ a:hover {
     min-height: 90vh;
 }
 
+.graftext {
+    max-width: 300px;
+}
+
 #splash {
     min-height: 60vh;
     min-width: 60vw;
     background: url(img/splash.jpg) no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 footer {
@@ -181,6 +192,13 @@ footer p {
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
 @media (min-width: 768px) {
+
+
+    .text {
+        left: 15%;
+        font-size: 70px;
+        max-width: 500px;
+    }
 
     .corner {
         top: 430px;
@@ -234,6 +252,13 @@ footer p {
         margin: auto;
     }
 
+    .text {
+        top: 240px;
+        left: 7%;
+        font-size: 60px;
+        max-width: 800px;
+    }
+
     .corner {
         top: 400px;
         left: 300px;
@@ -255,6 +280,10 @@ footer p {
         font-size: 12px;
     }
 
+    .ktext {
+        max-width: 330px;
+    }
+
 
     /* END "lg-" 992px and up */
 }
@@ -263,6 +292,13 @@ footer p {
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
+
+    .text {
+        top: 260px;
+        left: 0%;
+        font-size: 90px;
+        max-width: 1200px;
+    }
 
 
     .corner {
