@@ -73,15 +73,13 @@ a:hover {
     max-width: 400px;
     /*    mix-blend-mode: color-dodge;*/
 
-    z-index: 1;
+
     mix-blend-mode: saturation;
     /*bruges til at få skriften bag ved flasken*/
 
 }
 
-#heroimg {
-    z-index: 1;
-}
+#heroimg {}
 
 #herobox {
     width: 300px;
@@ -137,6 +135,11 @@ a:hover {
 }
 
 /*Kan ikke huske hvad den her gør*/
+
+.arrowpos {
+    right: 0;
+
+}
 
 #hero {
     /*    background-color: blue;*/
@@ -215,6 +218,44 @@ footer p {
 
 .pointer {
     cursor: pointer;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+/* pulse animation fra animista  */
+.pulsate-fwd {
+    animation: pulsate-fwd 1s ease-in-out infinite both;
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsate-fwd {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
@@ -406,7 +447,7 @@ footer p {
 
     .heroboxpos {
         top: 10vh;
-        left: 33%;
+        left: 32%;
 
     }
 
@@ -415,6 +456,12 @@ footer p {
         height: 660px;
 
 
+    }
+
+    .graftext {
+        position: absolute;
+        top: 4220px;
+        max-width: 500px;
     }
 
     /* END "xl-" 1200px and up */
