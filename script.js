@@ -17,16 +17,11 @@ $(function () { // DOM ready for jQuery??
         viewFactor: 0.2
 
     });
-    sr.reveal('#heroimg', {
-        scale: 0.5,
-        duration: 2000,
-
-    });
-
-
-
-
-
+    //    sr.reveal('#heroimg', {
+    //        scale: 0.5,
+    //        duration: 2000,
+    //
+    //    });
 
 
 
