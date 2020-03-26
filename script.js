@@ -8,6 +8,23 @@ $(function () { // DOM ready for jQuery??
         delay: 700
     });
 
+    /* slide flaske ind fra højre */
+    window.sr = ScrollReveal();
+    sr.reveal('#bottle', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px',
+        viewFactor: 0.2
+
+    });
+    sr.reveal('#heroimg', {
+        scale: 0.5,
+        duration: 2000,
+
+    });
+
+
+
 
 
 

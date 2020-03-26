@@ -4,6 +4,10 @@
 /* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
 /**************************************************/
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     100%
 }
@@ -63,11 +67,16 @@ a:hover {
 }
 
 .text {
-    top: 180px;
+    top: 230px;
     left: 10vw;
     font-size: 60px;
     max-width: 400px;
+    /*    mix-blend-mode: color-dodge;*/
+    mix-blend-mode: hue;
+    /*bruges til at få skriften bag ved flasken*/
 }
+
+#heroimg {}
 
 .corner {
     top: 380px;
@@ -134,7 +143,6 @@ a:hover {
 #konkurrencebox {
     max-width: 300px;
 }
-
 
 
 #graf {
