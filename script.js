@@ -1,5 +1,18 @@
 $(function () { // DOM ready for jQuery??
     //write your code below
+
+
+
+
+    ScrollReveal().reveal('.scroll', {
+        delay: 700
+    });
+
+
+
+
+
+
     var theToggle = document.getElementById('toggle');
 
     // based on Todd Motto functions
