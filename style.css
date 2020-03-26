@@ -86,7 +86,7 @@ a:hover {
 }
 
 .ktext {
-    top: 700px;
+    top: 80px;
     left: 20px;
 }
 
@@ -127,7 +127,12 @@ a:hover {
 }
 
 #konkurrence p {
-    font-size: 10px;
+    font-size: 15px;
+    max-width: 300px;
+}
+
+#konkurrencebox {
+    max-width: 300px;
 }
 
 
@@ -238,6 +243,18 @@ footer p {
         display: none;
     }
 
+    #konkurrencebox {
+        max-width: 400px;
+    }
+
+    .graftext {
+        position: absolute;
+        top: 3250px;
+        max-width: 500px;
+
+
+    }
+
 }
 
 /* END "md-" 768px and up */
@@ -321,6 +338,18 @@ footer p {
     #videod {
         width: 100%;
         height: auto;
+    }
+
+    #konkurrencebox {
+        max-width: 400px;
+    }
+
+    .graftext {
+        position: absolute;
+        top: 3560px;
+        max-width: 500px;
+
+
     }
 
     /* END "xl-" 1200px and up */
