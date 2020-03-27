@@ -15,25 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <style>
-        /*Preloader*/
-        .preloader.hidepreloader {
-            display: none;
-        }
 
-        .preloader {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background-image: url(img/preloader.gif);
-            background-repeat: no-repeat;
-            background-color: #FFF;
-            background-position: center;
-        }
-    </style>
 </head>
 
 <body>
@@ -68,7 +50,6 @@
 
     </header>
 
-    <div class="preloader"></div>
 
     <br>
 
@@ -232,9 +213,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
-    <script>
-        $(window).on("load", function(e) {
-            $('.preloader').fadeOut('slow');
-        })
-    </script>
-</body></html>
+</body>
+
+</html>
