@@ -15,7 +15,25 @@
 
     <link href="https://fonts.googleapis.com/css?family=Anton|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <style>
+        /*Preloader*/
+        .preloader.hidepreloader {
+            display: none;
+        }
 
+        .preloader {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background-image: url(img/preloader.gif);
+            background-repeat: no-repeat;
+            background-color: #FFF;
+            background-position: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +50,7 @@
 
             <div class="container">
                 <div class="col-12 text-center">
-                    <img id="logo" class="img-fluid col-4 col-md-2 col-lg-2" src="img/logov2.png">
+                    <img id="logo" class="img-fluid col-4 col-md-2 col-lg-2" src="img/logov2.png" alt="GINGIN">
                 </div>
             </div>
 
@@ -50,6 +68,7 @@
 
     </header>
 
+    <div class="preloader"></div>
 
     <br>
 
@@ -59,7 +78,7 @@
 
         <section id="hero" class="row position-relative no-gutters">
             <div class="col-12 p-5 text-center">
-                <img id="heroimg" class="img-fluid col-8 col-md-5 col-lg-4" src="img/gingin3.png">
+                <img id="heroimg" class="img-fluid col-8 col-md-5 col-lg-4" src="img/gingin3.png" alt="En helt almindelig Gin">
                 <div id="herobox" class="position-absolute heroboxpos">
                     <div id="box"></div>
                 </div>
@@ -70,9 +89,9 @@
 
         <section id="about" class="row position-relative col-12 pt-5 no-gutters">
 
-            <img class="img-fluid col-10 pl-4 col-md-6 scroll" src="img/a1.jpg">
+            <img class="img-fluid col-10 pl-4 col-md-6 scroll" src="img/a1.jpg" alt="Trætønder">
 
-            <img class="img-fluid col-8 col-md-6 col-lg-5 position-absolute corner scroll" src="img/a2.jpg">
+            <img class="img-fluid col-8 col-md-6 col-lg-5 position-absolute corner scroll" src="img/a2.jpg" alt="Et godt venskab starter med en gin og tonic">
 
             <div class="col-12 col-md-1 p-5 dn">
             </div>
@@ -107,7 +126,7 @@
 
 
         <section id="konkurrence" class="row col-12 no-gutters position-relative">
-            <img id="bottle" class="img-fluid col-6 col-md-5 col-lg-4 position-absolute corner1 slide-in-righ" src="img/gingin3.png">
+            <img id="bottle" class="img-fluid col-6 col-md-5 col-lg-4 position-absolute corner1 slide-in-righ" src="img/gingin3.png" alt="En helt almindelig GINGIN">
 
 
             <!--            <img class="img-fluid position-absolute col-8 col-md-6 col-lg-5 corner2 scroll" src="img/k2.jpg">-->
@@ -167,7 +186,7 @@
 
 
             <div class="col-9 text-center">
-                <img class="col-5 col-md-4 col-lg-3 img-fluid" src="img/logov2.png">
+                <img class="col-5 col-md-4 col-lg-3 img-fluid" src="img/logov2.png" alt="Original GINGIN logo">
 
                 <br>
                 <br>
@@ -175,7 +194,7 @@
 
 
                 <div class="col-12 mb-4 pointer">
-                    <img class="img-fluid col-3 col-md-2 col-lg-1" src="img/facebook.svg">
+                    <img class="img-fluid col-3 col-md-2 col-lg-1" src="img/facebook.svg" alt="Link til GINGIN Facebook side">
                 </div>
 
             </div>
@@ -207,11 +226,15 @@
 
 
     <script src="herobox.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
-
+    <script>
+        $(window).on("load", function(e) {
+            $('.preloader').fadeOut('slow');
+        })
+    </script>
 </body></html>
