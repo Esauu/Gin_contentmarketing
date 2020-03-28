@@ -71,9 +71,6 @@ a:hover {
     left: 10vw;
     font-size: 60px;
     max-width: 400px;
-    /*    mix-blend-mode: color-dodge;*/
-
-
     mix-blend-mode: saturation;
     /*bruges til at få skriften bag ved flasken*/
 
@@ -229,20 +226,6 @@ footer p {
     animation: pulsate-fwd 1s ease-in-out infinite both;
 }
 
-
-@-webkit-keyframes pulsate-fwd {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 @keyframes pulsate-fwd {
     0% {
@@ -443,6 +426,11 @@ footer p {
         max-width: 500px;
 
 
+    }
+
+    #splash {
+        margin: 0px;
+        padding: 0px;
     }
 
     .heroboxpos {

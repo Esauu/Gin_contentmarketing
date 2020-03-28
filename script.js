@@ -17,14 +17,8 @@ $(function () { // DOM ready for jQuery??
         viewFactor: 0.2
 
     });
-    //    sr.reveal('#heroimg', {
-    //        scale: 0.5,
-    //        duration: 2000,
-    //
-    //    });
 
-
-
+    /*burgermenu*/
     var theToggle = document.getElementById('toggle');
 
     // based on Todd Motto functions
